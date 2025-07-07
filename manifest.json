@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Salesforce Inspector - Exe",
-  "version": "1.0.8",
+  "name": "Salesforce Dev Inspector",
+  "version": "1.0.4",
   "description": "Salesforce Inspector is a powerful browser extension designed to supercharge your productivity in Salesforce by providing deep insights and fast access to metadata and data directly from the Salesforce UI. It supports both Classic and Lightning Experience and is ideal for Admins, Developers, Architects, and Analysts.",
   "permissions": [
     "cookies",

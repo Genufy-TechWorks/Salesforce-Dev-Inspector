@@ -656,6 +656,12 @@ logsContainer.querySelectorAll('.sf-download-log').forEach(btn => {
     chrome.runtime.sendMessage({
       message: 'downloadDebugLog',
       debugLogId: btn.dataset.id
+    }, (resp) => {
+      if (resp?.success) {
+        showToast('Debug Log Downloaded successfully.', true);
+      } else {
+        showToast(`Download failed:  ${(resp?.error || 'Unknown')}`, false)
+      }
     });
   });
 });
