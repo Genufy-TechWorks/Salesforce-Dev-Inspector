@@ -17,7 +17,7 @@ A Chrome extension to help Salesforce developers inspect Flows, edit records, do
 - Use tabs (Info, Fields, Users, Actions) to explore features.
 
 ## Privacy Policy
-See our [Privacy Policy](https://github.com/Genufy-TechWorks/Salesforce-Dev-Inspector/blob/main/PrivacyPolicy.html) for how we handle data.
+See our [Privacy Policy](https://Genufy-TechWorks.github.io/Salesforce-Dev-Inspector/PrivacyPolicy.html) for how we handle data.
 
 ## License
 [MIT License](LICENSE)
